@@ -1,0 +1,50 @@
+.cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 10px;
+  .form-cont {
+    width: 300px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div {
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    margin-bottom: 8px;
+  }
+
+  input,
+  textarea {
+    padding: 8px;
+  }
+
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+  }
+
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 4px;
+  }
+}
