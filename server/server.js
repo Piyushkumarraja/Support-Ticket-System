@@ -18,7 +18,7 @@ const connect = () => {
 };
 
 const corsOptions = {
-    origin: ['https://support-ticket-system-iota.vercel.app'],
+    origin: ['http://localhost:3000'],
     methods: ["GET","POST"],
     credentials: true,
   };
@@ -37,5 +37,5 @@ app.get('/api', (req, res) => {
 
 app.listen(5000, () => {
   connect();
-  console.log("Listening to port 3000");
+  console.log("Listening to port 5000");
 });
