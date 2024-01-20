@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://support-ticket-system-wlny.vercel.app/', // Replace with your actual API base URL
+  baseURL: 'https://support-ticket-system-q8cw.vercel.app/', // Replace with your actual API base URL
   headers: {
     'Content-Type': 'application/json',
   },
