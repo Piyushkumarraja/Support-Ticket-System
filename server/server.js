@@ -28,6 +28,13 @@ app.use(cookieParser());
 app.use(express.json());
 app.use("/api", ticketRoutes);
 
+app.get('/', (req, res) => {
+  res.send('Hello, this is a GET route!');
+});
+app.get('/api', (req, res) => {
+  res.send('Hello, this is a GET API route!');
+});
+
 app.listen(5000, () => {
   connect();
   console.log("Listening to port 3000");
