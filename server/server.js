@@ -18,10 +18,9 @@ const connect = () => {
 };
 
 const corsOptions = {
-    origin: 'https://support-ticket-system-iota.vercel.app',
-    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-    credentials: true, 
-    optionsSuccessStatus: 204,
+    origin: ['https://support-ticket-system-iota.vercel.app'],
+    methods: ["GET","POST"],
+    credentials: true,
   };
 
 app.use(cors(corsOptions));
